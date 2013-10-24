@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#sectionContent .banner {
+	text-align: center; 
+	padding: 25px 0 40px;
+	background: url("../img/bg_banner.png") repeat-x top left;
+}
+#sectionContent .title {
+	text-align: center;
+	padding-bottom: 70px;
+}
+#sectionContent #message{
+	width:960px;
+	height:auto;
+	margin:0 auto;
+}
+#sectionContent #message p{	
+	text-align:center;
+	color:000000;
+	font-size:16px;
+}
+#sectionContent #message p.textOrang{
+	font-size:28px;
+	color:#FF931E;
+	margin-bottom:20px;
+}
+#sectionContent #message p.mb-40{
+	font-size:26px;
+	margin-bottom:40px;
+}
+#sectionContent #message #backTop{
+	width:300px;
+	height:80px;
+	margin:0 auto 200px;
+}
+.mb-70{margin-bottom:70px;}
+
+
+
+
+

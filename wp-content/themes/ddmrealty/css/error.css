@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#sectionContent .banner {
+	text-align: center; 
+	padding: 25px 0 40px;
+	background: url("../img/bg_banner.png") repeat-x top left;
+}
+#sectionContent .title {
+	text-align: center;
+	padding-bottom: 35px;
+}
+#sectionContent .box {
+	padding: 35px 0 40px;
+	background: url("../img/bg_form.png") repeat top left;
+	border-width: 1px;
+	border-style: dashed;
+	border-color: #dcdcdc transparent;
+}
+#sectionContent .box .boxIn {
+	width: 960px;
+	margin: 0 auto;
+}
+#sectionContent .box .boxIn .form {
+	width: 530px;
+	float: left;
+}
+#sectionContent .box .boxIn .form .formInput {
+	border-collapse: collapse;
+	width: 100%;
+}
+#sectionContent .box .boxIn .form .formInput .tdLeft { vertical-align: top; }
+p.desc {
+	font-size: 16px;
+	color: #000;
+}
+p.desc font { color: #ff931e; }
+p.last { padding-bottom: 30px; }
+.area {
+	background: #ccc;
+	width: 524px;
+	height: 119px;
+	padding: 3px;
+	border: none;
+}
+#sectionContent .box .boxIn .form .formInput .tdRight { padding-bottom: 20px; }
+#sectionContent .box .boxIn .form .formInput .tdRight label { 
+	width: 358px;
+	float: right; 
+}
+.error {
+	font-size: 16px;
+	color: #ff931e;
+	float: left;
+}
+#sectionContent .box .boxIn .form .formInput .tdRight label .text {
+	width: 352px;
+	height: 25px;
+	line-height: 25px;
+	background: #ccc;
+	border: none;
+	padding: 0 3px;
+	float: right;
+}
+#sectionContent .box .boxIn .info {
+	padding-left: 100px;
+	width: 330px;
+	float: left;
+}
+#sectionContent .box .boxIn .info .contact { padding-top: 60px; }
+#sectionContent .box .infoTitle {
+	font-size: 18px;
+	color: #ff931e;
+	padding-bottom: 15px;
+}
+#sectionContent .box .infoDetail {
+	font-size: 16px;
+	line-height: 30px;
+	color: #000;
+}
+#sectionContent .box table.contact {
+	border-collapse: collapse;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000;
+}
+#sectionContent .box table.contact font { color: #ff931e; }
+
+.control { padding-top: 30px; }
+.bottom { 
+	padding-top: 50px; 
+	width: 960px;
+	margin: 0 auto;
+}
+.bottom img { display: block; }
+.bottom .subscribe { padding: 40px 0; }
+.block1 { 
+	float: left; 
+	padding-right: 20px;
+}
+.block1 font {
+	font-size: 16px;
+	color: #000;
+	padding-right: 20px;
+}
+.block1 .text1 {
+	background: #ccc;
+	width: 164px;
+	height: 25px;
+	line-height: 25px;
+	padding: 0 6px;
+	border: none;
+}
+
+.submit, .reset {
+	width: 78px;
+	height: 25px;
+	float: left;
+	margin-right: 20px;
+	border: none;
+	cursor: pointer;
+}
+.submit { background: url("../img/send.png") no-repeat; }
+.reset { background: url("../img/error/reset.png") no-repeat; }
+
+
+
+
+
